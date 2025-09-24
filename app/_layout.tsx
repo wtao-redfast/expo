@@ -1,7 +1,7 @@
 import { Drawer } from "expo-router/drawer";
 
 const AppLayout = () => {
-  return <Drawer></Drawer>;
+  return <Drawer/>;
 };
 
 export default AppLayout;

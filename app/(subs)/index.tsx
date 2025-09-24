@@ -1,11 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
-import React from "react";
-import { Button } from "@react-navigation/elements";
-import { useRouter } from "expo-router";
 
 const HomeScreen = () => {
-  const router = useRouter();
-
   return (
     <View style={styles.screen}>
       <Text style={styles.text}>Hello World</Text>
